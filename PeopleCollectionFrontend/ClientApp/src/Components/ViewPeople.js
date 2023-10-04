@@ -4,9 +4,9 @@ function ViewPeople() {
 
     const [personObjects, setPersonObjects] = useState(0);
     useEffect(() => {
-        fetch('https://alacritypeoplecollectionapicollection.azure-api.net/PeopleCollection/api/Person', {
+        fetch('https://alacritypeoplecollectionapi.azure-api.net/PeopleCollection/api/Person', {
             method: 'get',
-            headers: { 'Content-Type': 'application/json' },
+            headers: { 'Content-Type': 'text/plain' },
         })
             .then(response => response.json())
             .then(data => { setPersonObjects(data) })
