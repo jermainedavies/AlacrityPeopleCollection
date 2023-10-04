@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlacrityPeopleCollection", "AlacrityPeopleCollection\AlacrityPeopleCollection.csproj", "{11675792-A252-4654-A7D4-9244DB1DE662}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlacrityPeopleCollection", "AlacrityPeopleCollection\AlacrityPeopleCollection.csproj", "{11675792-A252-4654-A7D4-9244DB1DE662}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleCollectionFrontend", "PeopleCollectionFrontend\PeopleCollectionFrontend.csproj", "{295939ED-C33C-4C01-8A0D-97D13B6ABD12}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{11675792-A252-4654-A7D4-9244DB1DE662}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11675792-A252-4654-A7D4-9244DB1DE662}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11675792-A252-4654-A7D4-9244DB1DE662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{295939ED-C33C-4C01-8A0D-97D13B6ABD12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{295939ED-C33C-4C01-8A0D-97D13B6ABD12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{295939ED-C33C-4C01-8A0D-97D13B6ABD12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{295939ED-C33C-4C01-8A0D-97D13B6ABD12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
